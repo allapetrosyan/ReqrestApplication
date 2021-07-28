@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/registerFragment"
+    android:orientation="vertical"
+    tools:context=".RegisterPageFragment">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="62sp"
+        android:layout_gravity="center"
+        android:text="Register"/>
+
+    <EditText
+        android:id="@+id/enterRegMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="enter name"
+        android:textSize="32sp"
+        android:layout_gravity="center" />
+    <EditText
+        android:id="@+id/enterRegPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="32sp"
+        android:hint="enter srName"/>
+    <Button
+        android:id="@+id/registrationBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="register"/>
+
+</LinearLayout>
